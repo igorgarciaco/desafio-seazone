@@ -1,3 +1,16 @@
+:root{
+  --white: #FFFFFF;
+
+  --cultured: #F6F6F6;  
+  --gray: #F6F6F6;
+  
+  --eerie-black: #272727;
+  --black: #000000;
+
+  --dark-blue: #151926;
+  --orange: #F6413D;
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -487,9 +500,6 @@ dt {
 }
 th {
   font-weight: bold;
-}
-li {
-  margin-bottom: calc(1.45rem / 2);
 }
 ol li {
   padding-left: 0;

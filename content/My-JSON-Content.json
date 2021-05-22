@@ -1,0 +1,44 @@
+{
+    "title": "JSON content used at build time with Gatsby",
+    "content": [
+      {
+        "id": "1",      
+        "name": "Nome do Imóvel",
+        "status": "Vago",
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
+        "description": "<p>Um super apartamento</p>",
+        "guests_limit": "5",
+        "cleaning_tax": "10,00",
+        "deposit": "500,00",
+        "adress": "St. Number One",
+        "aditional": ["TV", "Wi-fi", "Estacionamento", "Elevador"]
+      },
+      {
+        "id": "2",      
+        "name": "Nome do Imóvel",
+        "status": "Vago",
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
+        "description": "<p>Um super apartamento</p>",
+        "guests_limit": "5",
+        "cleaning_tax": "10,00",
+        "deposit": "500,00",
+        "adress": "St. Number One",
+        "aditional": ["TV", "Wi-fi", "Estacionamento", "Elevador"]
+      },
+      {
+        "id": "3",      
+        "name": "Nome do Imóvel",
+        "status": "Vago",
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
+        "description": "<p>Um super apartamento</p>",
+        "guests_limit": "5",
+        "cleaning_tax": "10,00",
+        "deposit": "500,00",
+        "adress": "St. Number One",
+        "aditional": ["TV", "Wi-fi", "Estacionamento", "Elevador"]
+      }
+    ]
+  }
