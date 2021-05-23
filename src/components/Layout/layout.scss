@@ -9,6 +9,7 @@
 
   --dark-blue: #151926;
   --orange: #F6413D;
+  --green: #00A357;
 }
 
 html {
@@ -23,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'PT Sans', serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -599,6 +600,10 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+h1, h2, h3 ,h4, h5, p, input{
+  font-family: 'PT Sans', sans-serif;
+  
 }
 @media only screen and (max-width: 480px) {
   html {

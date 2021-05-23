@@ -1,0 +1,36 @@
+.card{
+    border: none;
+    
+    .card-title{
+        font-size: 1.1rem;
+    }
+
+    .card-subtitle{
+        font-weight: 400;
+    }
+
+    .card-img-top{
+        border-radius: 15px
+    }
+
+    .card-text{
+        color: var(--eerie-black);
+        font-size: 0.85rem;
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+        
+        border-bottom: 1px solid #ddd;
+        border-bottom-style: dashed;
+    }
+
+    .discount-tag{
+        text-align: end;
+        font-size: 0.85rem;
+    }
+
+    .green-text{
+        color: var(--green);
+    }
+}

@@ -33,7 +33,7 @@ const NavbarHome = (props) => {
 
     return (
         <div>
-            <Navbar className="navbar" light expand="md">
+            <Navbar className="navbar" dark expand="md">
                 <NavbarBrand href="/">
                     <StaticImage
                         src="../../images/seazone-logo.png"

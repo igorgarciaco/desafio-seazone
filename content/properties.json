@@ -1,0 +1,50 @@
+{
+    "name": "JSON content used at build time with Gatsby",
+    "content": [
+      {
+        "id": "1",      
+        "title": "HIC174 - Suite Top vista mar resort Jurere",
+        "status": "Vago",
+        "daily": 700.00,
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "https://picsum.photos/600/200",
+        "description": "<p>Um super apartamento</p>",
+        "guests_limit": "5 hóspedes",
+        "rooms": "2 quartos",
+        "cleaning_tax": 10.00,
+        "deposit": 500.00,
+        "adress": "Jurerê Internacional",
+        "aditional": ["TV", "Wi-fi", "Estacionamento", "Elevador"]
+      },
+      {
+        "id": "2",      
+        "title": "HIC174 - Suite Top vista mar resort Jurere",
+        "status": "Vago",
+        "daily": 700.00,
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "https://picsum.photos/600/200",
+        "description": "<p>Um super apartamento</p>",
+        "guests_limit": "5 hóspedes",
+        "rooms": "2 quartos",
+        "cleaning_tax": 10.00,
+        "deposit": 500.00,
+        "adress": "Jurerê Internacional",
+        "aditional": ["TV", "Wi-fi", "Estacionamento", "Elevador"]
+      },
+      {
+        "id": "3",      
+        "title": "HIC174 - Suite Top vista mar resort Jurere",
+        "status": "Vago",
+        "daily": 700.00,
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "https://picsum.photos/600/200",
+        "description": "<p>Um super apartamento</p>",
+        "guests_limit": "5 hóspedes",
+        "rooms": "2 quartos",
+        "cleaning_tax": 10.00,
+        "deposit": 500.00,
+        "adress": "Jurerê Internacional",
+        "aditional": ["TV", "Wi-fi", "Estacionamento", "Elevador"]
+      }
+    ]
+  }

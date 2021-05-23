@@ -1,7 +1,22 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/node-apis/
- */
+const path = require(`path`)
+const data = require('./content/properties.json')
 
-// You can delete this file if you're not using it
+exports.createPages = async ({ graphql, actions, reporter }) => {
+  const { createPage } = actions
+
+  const PageTemplate = path.resolve("./src/templates/Page.js")
+
+    data.forEach(color_object => {
+        var path = color_object.name;
+
+        createPage({
+            path,
+            component: PageTemplate,
+            context: color_object,
+        })
+    })
+
+
+
+  
+}
