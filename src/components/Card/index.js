@@ -11,7 +11,6 @@ import {
     CardBody,
     CardTitle,
     CardSubtitle,
-    Button,
     Container,
     Row,
     Col
@@ -32,7 +31,7 @@ const CardProperty = () => {
 
                     return (
                         <Col md={4}>
-                            <Link to="/property/details" className="card-link">
+                            <Link to="/propriedades/detalhes" className="card-link">
                                 <Card>
                                     <div className="card-img">
                                         <CardImg top src={data.thumbnail} alt={data.name} />

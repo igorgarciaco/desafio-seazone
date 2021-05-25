@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import JSONData from "../../../content/properties.json"
 
@@ -47,23 +46,29 @@ const IndexPage = () => {
               </strong>
               </p>
 
-              <div className="info-box-wrapper">
-                <div className="info-box">
-                  <p>Máx. de hospedes</p>
-                  <img className="info-icon" src={groupIcon} alt="" width="24px" />
-                  {propertyData.guests_limit.substring(0, 2)}
-                </div>
-                <div className="info-box">
-                  <p>Taxa de limpeza</p>
-                  <img className="info-icon" src={cleaningIcon} alt="" width="24px" />
-                  R$ {propertyData.cleaning_tax}
-                </div>
-                <div className="info-box">
-                  <p>Caução</p>
-                  <img className="info-icon" src={handIcon} alt="" width="24px" />
-                  R$ {propertyData.deposit}
-                </div>
-              </div>
+              <Row className="info-box-wrapper">
+                <Col md={4}>
+                  <div className="info-box">
+                    <p>Máx. de hospedes</p>
+                    <img className="info-icon" src={groupIcon} alt=" " width="24px" />
+                    {propertyData.guests_limit.substring(0, 2)}
+                  </div>
+                </Col>
+                <Col md={4}>
+                  <div className="info-box">
+                    <p>Taxa de limpeza</p>
+                    <img className="info-icon" src={cleaningIcon} alt=" " width="24px" />
+                    R$ {propertyData.cleaning_tax}
+                  </div>
+                </Col>
+                <Col md={4}>
+                  <div className="info-box">
+                    <p>Caução</p>
+                    <img className="info-icon" src={handIcon} alt=" " width="24px" />
+                    R$ {propertyData.deposit}
+                  </div>
+                </Col>
+              </Row>
 
               <div className="confort-list-wrapper">
                 <h4>Comodidades</h4>

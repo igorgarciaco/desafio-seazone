@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Container, Row, Col, Button } from 'reactstrap'
+import { Container, Button } from 'reactstrap'
 
 import './navfilter.scss'
 
