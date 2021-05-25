@@ -3,25 +3,15 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 import Navbar from "../Navbar"
+import NavFilter from "../NavFilter"
 
 import './header.scss'
 
 const Header = ({ siteTitle }) => (
   <header>
     <Navbar />
-     <div>
-      <h1>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+    <NavFilter />
+    
   </header>
 )
 

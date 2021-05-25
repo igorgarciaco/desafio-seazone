@@ -1,36 +1,65 @@
-.card{
-    border: none;
-    
-    .card-title{
-        font-size: 1.1rem;
+.card-wrapper{
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.85rem;
     }
 
-    .card-subtitle{
-        font-weight: 400;
-    }
-
-    .card-img-top{
-        border-radius: 15px
-    }
-
-    .card-text{
+    .card-link{
+        text-decoration: none;
         color: var(--eerie-black);
-        font-size: 0.85rem;
-
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0;
+    
+        &:hover{
+            text-decoration: none;
+            color: var(--eerie-black);
+            
+        }
+    
+        .card-img{
+            overflow: hidden;
+            height: 150px;
+            border-radius: 15px;
+        }
+    }
+    
+    .card{
+        border: none;
+        padding-bottom: 0;
+        margin-bottom: 1rem;
+        transition: filter 50ms;
         
-        border-bottom: 1px solid #ddd;
-        border-bottom-style: dashed;
-    }
-
-    .discount-tag{
-        text-align: end;
-        font-size: 0.85rem;
-    }
-
-    .green-text{
-        color: var(--green);
+        &:hover{
+            filter: brightness(110%);
+        }
+        
+        .card-title{
+            font-size: 1.1rem;
+        }
+    
+        .card-subtitle{
+            font-weight: 400;
+        }
+    
+        .card-text{
+            color: var(--eerie-black);
+            font-size: 0.85rem;
+    
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0;
+            
+            border-bottom: 1px solid #ddd;
+            border-bottom-style: dashed;
+        }
+    
+        .discount-tag{
+            text-align: end;
+            font-size: 0.85rem;
+        }
+    
+        .green-text{
+            color: var(--green);
+        }
     }
 }
